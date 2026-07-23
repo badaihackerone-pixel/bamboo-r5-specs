@@ -17,6 +17,7 @@ plan:
 plan-permissions:
   - users:
       - a5attacker
+      - a5attacker2
     permissions:
       - view
       - edit
