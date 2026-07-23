@@ -1,0 +1,16 @@
+---
+version: 2
+plan:
+  project-key: A5SPECS
+  key: MAIN
+  name: A5SPECS - Main Plan
+stages:
+  - Default Stage:
+      jobs:
+        - Default Job
+Default Job:
+  tasks:
+    - script:
+        interpreter: LEGACY_SH_BAT
+        scripts:
+          - echo "baseline build, no permission changes"
