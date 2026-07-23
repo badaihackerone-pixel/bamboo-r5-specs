@@ -9,5 +9,4 @@ stages:
       jobs:
         - Default Job
 Default Job:
-  tasks:
-    - checkout: default
+  tasks: []
