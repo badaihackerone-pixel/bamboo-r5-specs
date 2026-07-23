@@ -10,7 +10,4 @@ stages:
         - Default Job
 Default Job:
   tasks:
-    - script:
-        interpreter: LEGACY_SH_BAT
-        scripts:
-          - echo "baseline build, no permission changes"
+    - checkout: default
