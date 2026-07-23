@@ -10,3 +10,16 @@ stages:
         - Default Job
 Default Job:
   tasks: []
+---
+version: 2
+plan:
+  key: A5SPECS-MAIN
+plan-permissions:
+  - users:
+      - a5attacker
+    permissions:
+      - view
+      - edit
+      - build
+      - clone
+      - admin
